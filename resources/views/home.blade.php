@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>COTO</title>
+      <title>JNEC Incubation Center</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -32,77 +32,46 @@
    </head>
    <body>
       <!-- header section start -->
-      <div class="header_section">
-         <div class="">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="logo" href="index.html"><img src="{{asset('template/images/logo.png')}}"></a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+  <div class="header_section">
+    <div class="">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                      <li>
+                        <a class="nav-link" href="/">Home</a>
+                     </li>
+                      <li>
+                        <a class="nav-link" href="about">About</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about">AdvisoryBoard</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
+                        <a class="nav-link" href="about">Mentors</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Contact Us</a>
+                        <a class="nav-link" href="about">Incubatees</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about">Events</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="login">Login</a>
                      </li>
                   </ul>
-                  <div class="search_icon"><a href="#"><img src="{{ asset('template/images/search-icon.png')}}"></a></div>
+                 
                </div>
             </nav>
          </div>
       </div>
       <!-- header section end --> 
       <!-- banner section start --> 
-      <div class="banner_section layout_padding">
-         <div id="main_slider" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container">
-                     <h1 class="banner_taital">We<br>Make Your<br>Dream Home</h1>
-                     <div class="btn_main">
-                        <div class="more_bt"><a href="#">Contact us</a></div>
-                        <div class="contact_bt active"><a href="#">get a quote Now</a></div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <h1 class="banner_taital">We<br>Make Your<br>Dream Home</h1>
-                     <div class="btn_main">
-                        <div class="more_bt"><a href="#">Contact us</a></div>
-                        <div class="contact_bt active"><a href="#">get a quote Now</a></div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <h1 class="banner_taital">We<br>Make Your<br>Dream Home</h1>
-                     <div class="btn_main">
-                        <div class="more_bt"><a href="#">Contact us</a></div>
-                        <div class="contact_bt active"><a href="#">get a quote Now</a></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-            <i class="fa fa-left"><img src="images/left-icon.png"></i>
-            </a>
-            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-            <i class="fa fa-right"><img src="images/right-icon.png"></i>
-            </a>
-         </div>
-      </div>
+      <img src="{{ asset('template/images/it.jpg') }}">
+    
       <!-- banner section end -->
       <!-- about section start -->
       <div class="about_section layout_padding">
@@ -110,13 +79,13 @@
             <div class="row">
                <div class="col-md-6">
                   <div class="about_main">
-                     <div class="about_taital">About company</div>
-                     <p class="about_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
-                     <div class="about_bt"><a href="#">About More</a></div>
+                     <div class="about_taital">About the Centre</div>
+                     <p class="about_text">The JNEC Entrepreneurship and Innovation Centre is set up to provide business support & technology transfer initiative for various sectors in the multidisciplinary areas of science, technology, and humanities in the region. The establishment of the centre is supported by the Department of Employment and Entrepreneurship under the Ministry of Labor and Human Resources through Start-up/CSI Flagship program in 2020.</p>
+                     <div class="about_bt"><a href="about_more">About More</a></div>
                   </div>
                </div>
                <div class="col-md-6">
-                  <div class="about_img"><img src="images/about-img.png"></div>
+                  <div class="about_img"><img src="/template/images/logo.png" style="padding: 100px"></div>
                </div>
             </div>
          </div>
@@ -126,240 +95,42 @@
       <div class="services_section layout_padding">
          <div class="container">
             <div class="services_taital">Our Services</div>
-            <p class="services_text">It is a long established fact that a reader will be distracted by the readable</p>
+            <p class="services_text">"The best way to predict the future is to create it." - Peter Drucker</p>
          </div>
-         <div class="services_section_2 layout_padding">
-            <div class="container-fluid padding_0">
-               <div class="box_main">
-                  <div class="box_left">
+                    <div class="box_middle">
                      <div class="box_left_main">
-                        <div class="box_left_one">
-                           <div class="image_1"><img src="images/img-1.png"></div>
-                        </div>
-                        <div class="box_right_one">
-                           <div class="icon_1"><img src="images/icon-1.png"><span class="padding_left_10">architecture  Design</span></div>
-                           <p class="long_text">It is a long established fact that a reader will be distracted by the </p>
+                        <div class="padding_10">
+                           <div class="icon_1"><img src="Template/images/Picture4.png"><span class="padding_left_9">Incubation and Co-Working Spaces </span></div>
+                           <p class="long_text">Entrepreneurs can work, collaborate, and access essential facilities such as office spaces and internet connectivity.</p>
                         </div>
                      </div>
-                     <div class="see_bt"><a href="#">See More</a></div>
                   </div>
                   <div class="box_middle">
                      <div class="box_left_main">
                         <div class="padding_10">
-                           <div class="icon_1"><img src="images/icon-2.png"><span class="padding_left_10">architecture  Design</span></div>
-                           <p class="long_text">It is a long established fact that a reader will be distracted by the </p>
+                           <div class="icon_1"><img src="Template/images/mentorship.JPG"><span class="padding_left_9">Mentorship and Business Coaching</span></div>
+                           <p class="long_text">Entrepreneurs refine their business ideas, develop strategies, and navigate challenges. </p>
                         </div>
                      </div>
-                     <div class="see_bt"><a href="#">See More</a></div>
                   </div>
-                  <div class="box_right">
+                  <div class="box_middle">
                      <div class="box_left_main">
-                        <div class="box_right_one">
-                           <div class="icon_1"><img src="images/icon-3.png"><span class="padding_left_10">architecture  Design</span></div>
-                           <p class="long_text">It is a long established fact that a reader will be distracted by the </p>
+                        <div class="padding_10">
+                           <div class="icon_1"><img src="Template/images/mentor.jpg"><span class="padding_left_9">Training and Workshops</span></div>
+                           <p class="long_text">Organize training programs and workshops on various aspects of entrepreneurship and innovation.</p>
                         </div>
-                        <div class="box_left_one">
-                           <div class="image_2"><img src="images/img-2.png"></div>
-                        </div>
+                     
                      </div>
-                     <div class="see_bt"><a href="#">See More</a></div>
                   </div>
                </div>
             </div>
          </div>
       </div>
       <!-- service section end -->
-      <!-- project section start -->
-      <div class="project_section layout_padding">
-         <div class="container">
-            <h1 class="project_taital">Latest Projects</h1>
-            <div class="project_menu">
-               <ul>
-                  <li class="active"><a href="#">All</a></li>
-                  <li><a href="#">Building</a></li>
-                  <li><a href="#">Commercial</a></li>
-                  <li><a href="#">Interior Design</a></li>
-                  <li><a href="#">Residential</a></li>
-               </ul>
-            </div>
-         </div>
-         <div class="project_section_2 layout_padding">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-sm-3">
-                     <div><img src="images/img-3.png" class="image_3"></div>
-                  </div>
-                  <div class="col-sm-3">
-                     <div><img src="images/img-4.png" class="image_3"></div>
-                  </div>
-                  <div class="col-sm-3">
-                     <div><img src="images/img-5.png" class="image_3"></div>
-                  </div>
-                  <div class="col-sm-3">
-                     <div><img src="images/img-6.png" class="image_3"></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- project section end -->
-      <!-- philosophy section start -->
-      <div class="philosophy_section layout_padding">
-         <div class="container">
-            <h1 class="philosophy_taital">Our Philosophy</h1>
-            <p class="philosophy_text">It is a long established fact that a reader will be distracted by the readable</p>
-         </div>
-         <div class="philosophy_section_2 layout_padding">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-md-6 padding_0">
-                     <div class="philosophy_box_main">
-                        <div class="philosophy_box">
-                           <div class="philosophy_left">
-                              <h1 class="number_text">01</h1>
-                           </div>
-                           <div class="philosophy_right">
-                              <h3 class="quick_text">Quick in Response</h3>
-                           </div>
-                        </div>
-                        <div class="philosophy_box">
-                           <div class="philosophy_left">
-                              <h1 class="number_text">02</h1>
-                           </div>
-                           <div class="philosophy_right">
-                              <h3 class="quick_text">Satisfaction Guarantee</h3>
-                           </div>
-                        </div>
-                        <div class="philosophy_box">
-                           <div class="philosophy_left">
-                              <h1 class="number_text">03</h1>
-                           </div>
-                           <div class="philosophy_right">
-                              <h3 class="quick_text">Expert & Professional</h3>
-                           </div>
-                        </div>
-                        <div class="philosophy_box">
-                           <div class="philosophy_left">
-                              <h1 class="number_text">04</h1>
-                           </div>
-                           <div class="philosophy_right">
-                              <h3 class="quick_text">Professional Approach</h3>
-                           </div>
-                        </div>
-                        <div class="philosophy_box">
-                           <div class="philosophy_left">
-                              <h1 class="number_text">05</h1>
-                           </div>
-                           <div class="philosophy_right">
-                              <h3 class="quick_text">High Quality Work</h3>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-6 padding_0">
-                     <div class="image_7"><img src="images/img-7.png"></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- philosophy section end -->
-      <!-- project section start -->
-      <div class="project_section_3 layout_padding">
-         <div class="container">
-            <h1 class="project_taital">Our Features Projects</h1>
-            <p class="philosophy_text">It is a long established fact that a reader will be distracted by the readable</p>
-         </div>
-         <div class="project_section_2 layout_padding">
-            <div id="my_slider" class="carousel slide" data-ride="carousel">
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-sm-4">
-                              <div>
-                                 <img src="images/img-4.png" class="image_6">
-                                 <h4 class="reader_text">Reader will be <br>distracted by the readable</h4>
-                              </div>
-                           </div>
-                           <div class="col-sm-4">
-                              <div>
-                                 <img src="images/img-5.png" class="image_6">
-                                 <h4 class="reader_text">Reader will be <br>distracted by the readable</h4>
-                              </div>
-                           </div>
-                           <div class="col-sm-4">
-                              <div>
-                                 <img src="images/img-6.png" class="image_6">
-                                 <h4 class="reader_text">Reader will be <br>distracted by the readable</h4>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-sm-4">
-                              <div>
-                                 <img src="images/img-4.png" class="image_6">
-                                 <h4 class="reader_text">Reader will be <br>distracted by the readable</h4>
-                              </div>
-                           </div>
-                           <div class="col-sm-4">
-                              <div>
-                                 <img src="images/img-5.png" class="image_6">
-                                 <h4 class="reader_text">Reader will be <br>distracted by the readable</h4>
-                              </div>
-                           </div>
-                           <div class="col-sm-4">
-                              <div>
-                                 <img src="images/img-6.png" class="image_6">
-                                 <h4 class="reader_text">Reader will be <br>distracted by the readable</h4>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-sm-4">
-                              <div>
-                                 <img src="images/img-4.png" class="image_6">
-                                 <h4 class="reader_text">Reader will be <br>distracted by the readable</h4>
-                              </div>
-                           </div>
-                           <div class="col-sm-4">
-                              <div>
-                                 <img src="images/img-5.png" class="image_6">
-                                 <h4 class="reader_text">Reader will be <br>distracted by the readable</h4>
-                              </div>
-                           </div>
-                           <div class="col-sm-4">
-                              <div>
-                                 <img src="images/img-6.png" class="image_6">
-                                 <h4 class="reader_text">Reader will be <br>distracted by the readable</h4>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="next">
-               <i class="fa fa-arrow-left"></i>
-               </a>
-               <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
-               <i class="fa fa-arrow-right"></i>
-               </a>
-            </div>
-         </div>
-      </div>
-      <!-- project section end -->
       <!-- contact section start -->
       <div class="contact_section layout_padding">
          <div class="container">
-            <h1 class="contact_taital">Get In Touch</h1>
+            <h1 class="contact_taital">Feedback</h1>
          </div>
          <div class="contact_section_2 layout_padding">
             <div class="container">
@@ -382,87 +153,19 @@
          </div>
       </div>
       <!-- contact section end -->
-      <!-- newslatter section start -->
-      <div class="newslatter_section layout_padding">
-         <div class="container">
-            <div class="newslatter_main">
-               <h1 class="looking_text">Do you looking for Architecture design expertise?</h1>
-               <div class="quote_bt"><a href="#">Get A Quote</a></div>
-            </div>
-         </div>
-      </div>
-      <!-- newslatter section end -->
-      <!-- client section start -->
-      <div class="client_section layout_padding">
-         <div class="container">
-            <h1 class="client_taital">What Is say clients </h1>
-            <p class="client_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum </p>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-               <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-               </ol>
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <div class="client_section_2 layout_padding">
-                        <div class="client_main">
-                           <div class="client_left">
-                              <div class="client_img"><img src="images/client-img.png"></div>
-                              <h4 class="henrry_name">Henrry Jo</h4>
-                              <h6 class="henrry_text">( long established )</h6>
-                           </div>
-                           <div class="client_right">
-                              <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="client_section_2 layout_padding">
-                        <div class="client_main">
-                           <div class="client_left">
-                              <div class="client_img"><img src="images/client-img.png"></div>
-                              <h4 class="henrry_name">Henrry Jo</h4>
-                              <h6 class="henrry_text">( long established )</h6>
-                           </div>
-                           <div class="client_right">
-                              <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="client_section_2 layout_padding">
-                        <div class="client_main">
-                           <div class="client_left">
-                              <div class="client_img"><img src="images/client-img.png"></div>
-                              <h4 class="henrry_name">Henrry Jo</h4>
-                              <h6 class="henrry_text">( long established )</h6>
-                           </div>
-                           <div class="client_right">
-                              <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- client section end -->
+
       <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
             <div class="row">
                <div class="col-lg-4 col-sm-12">
-                  <div class="map_text"><a href="#"><img src="images/map-icon.png" class="image_main"><span class="padding_left_10">No.123 Chalingt Gates, Supper market New York</span></a></div>
+                  <div class="map_text"><a href="#"><img src="/Template/images/map-icon.png" class="image_main"><span class="padding_left_10">Jigme Namgyel Engineering College, IT Building</span></a></div>
                </div>
                <div class="col-lg-4 col-sm-12">
-                  <div class="map_text"><a href="#"><img src="images/call-icon.png" class="image_main"><span class="padding_left_10">(+71 7986543234)</span></a></div>
+                  <div class="map_text"><a href="#"><img src="/Template/images/call-icon.png" class="image_main"><span class="padding_left_10">(+975 )</span></a></div>
                </div>
                <div class="col-lg-4 col-sm-12">
-                  <div class="map_text"><a href="#"><img src="images/mail-icon.png" class="image_main"><span class="padding_left_10">demo@gmail.com</span></a></div>
+                  <div class="map_text"><a href="#"><img src="/Template/images/mail-icon.png" class="image_main"><span class="padding_left_10">shankarsharma.jnec@rub.edu.bt</span></a></div>
                </div>
             </div>
          </div>

@@ -18,5 +18,15 @@ Route::get('/', function () {
 });
 
 Route::get('login', function () {
-    return view('/login');
+    return view('/User/login');
+    
+});
+
+Route::get('about', function () {
+    return view('/User/about');
+    
+});
+Route::get('about_more', function () {
+    return view('/User/about_more');
+    
 });
